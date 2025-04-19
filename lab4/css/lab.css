@@ -18,3 +18,10 @@ pre-code {
   margin-left: 10px;
   text-align: left;
 }
+
+#file-image {
+  float: right;
+  width: 160px;
+  height: auto;
+  border: solid 1px black;
+}
