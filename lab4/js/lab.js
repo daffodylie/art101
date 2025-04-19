@@ -1,6 +1,17 @@
-// index.js - purpose and description here
-// Author: Your Name
-// Date:
+// index.js - Rock, Paper, Scissors
+// Author: Dylan Boyle <dmboyle@gucsc.edu>
+// Date: April 21, 2025
+
+//Tasks
+  //Find one opponent
+  // Print icons (rock, paper, and scissor buttons)
+  // Prompt user selection with countdown
+  // Accept user input
+  // Evaluate win, lose, tie
+    // Rock beats scissors 
+    // Scissors beat paper 
+    // Paper beats rock 
+    // Same icon prompts replay
 
 // Constants
 

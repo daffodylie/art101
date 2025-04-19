@@ -13,6 +13,12 @@ h1,h2,h3 {
   color: #5185a6;
 }
 
+p {
+  color: #3b7093;
+  font-family: monospace;
+  margin-left: 10px;
+}
+
 /* and we can have rules that overlap other rules, both take effect */
 h1 {
   letter-spacing: 5px;

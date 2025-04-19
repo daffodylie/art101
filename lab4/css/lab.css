@@ -4,6 +4,17 @@
 .minor-section {
     padding: 10px;
     margin-bottom: 10px;
-    border: solid 1px #888;
-    background-color: #DDD8C4;
   }
+
+ol {
+  color: #000000;
+  font-family: monospace;
+  margin-left: 10px;
+}
+
+pre-code {
+  color: #000000;
+  font-family: monospace;
+  margin-left: 10px;
+  text-align: left;
+}
