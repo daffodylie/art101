@@ -29,3 +29,13 @@ let multiplied = numArray.map(function(x){
 
 //expected results: 75, 80, 85, 90
 console.log("Results: ", multiplied);
+
+//Your map results data
+let mapResults  = "Your map results here";
+
+//Use jQuery to select the element by its ID and set the HTML content
+$("#output").html(`
+    <p><strong>Original Array:</strong> [${numArray.join(", ")}]</p>
+    <p><strong>Adding 5:</strong> [${results.join(", ")}]</p>
+    <p><strong>Multiplying by 5:</strong> [${multiplied.join(", ")}]</p>
+`);
