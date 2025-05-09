@@ -38,4 +38,4 @@ $("#output").html(`
     <p><strong>Original Array:</strong> [${numArray.join(", ")}]</p>
     <p><strong>Adding 5:</strong> [${results.join(", ")}]</p>
     <p><strong>Multiplying by 5:</strong> [${multiplied.join(", ")}]</p>
-`);
+`);  
