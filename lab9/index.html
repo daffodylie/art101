@@ -11,7 +11,7 @@
 <link rel="stylesheet" type="text/css" href="css/lab.css">
 
 <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
-<script src="js/lab.js"></script>
+<script src="js/lab.js"> defer</script>
 
 </head>
 <body>
@@ -20,25 +20,24 @@
             <h1>Lab 9 - Libraries & jQuery</h1>
             <div class="minor-section" id="challenge">
                 <h2>Challenge</h2>
-                <p>In this lab, we were asked to experiement with anon functions and callbacks. 
-                    I created a function that adds 5 to a number array, and an anon function that multiples by 5.
+                <p>In this lab, we were asked to create a listener and an even.
+                     In this case, a button that changed the styling when pressed.
                 </p>
             </div>
 
             <div class="minor-section" id="problems">
                 <h2>Problems</h2>
-                <p>I struggled with the chrome console initially, getting different errors I didn't understand.
-                    I asked by partner and wesbot and was able to sort it out.
-                    I also had an issue with a syntax error, but it seems to show up no matter what I do.
-                    Since the code is still running smoothly, I'll accept this defeat.
+                <p>I had a difficult time getting my buttons to show up. I used the console, WesBot, and ChatGPT to troubleshoot.
+                    In the end, the issue was that I had only linked my JS in the "head" and not the "body" of my HTML.
                 </p>
             </div>
 
             <div class="minor-section" id="results">
                 <h2>Results</h2>
-                <p>Below is the script output for the JavaScript function I wrote for this lab. 
-                    You can also see it by opening the console on your Chrome browser.</p>
+                <p>The results are the buttons you can see at the bottom of each section. 
+                    Click on them and see what happens!</p>
                 <div id="output"></div>
+                    <script src="js/lab.js"> defer</script>
             </div>
         </section>
     </main>  
