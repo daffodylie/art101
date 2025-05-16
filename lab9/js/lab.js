@@ -29,11 +29,11 @@
     //$("#results").toggleClass("special");
 //});
 
-// add button to results section
+// add button to all sections
 $(".minor-section").append("<button id='special-button'>Make Special</button>");
 
-// add a click listener to the results button
+// add a click listener to the all buttons
 $("#special-button").click(function(){
     // now add (or subtract) the "special" class to the section
     $(this).parent().toggleClass("special");
-});
+});     
