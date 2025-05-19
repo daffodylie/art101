@@ -22,4 +22,4 @@ $("#make-convo").click(function(){
     $("#output").append('<div class="text"><p>' + newText + '</p></div>');
 });
 
-main();
+main(); 
