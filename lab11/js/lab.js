@@ -24,9 +24,8 @@ $("#output").html('<div class="text"><p>' + userNameSorted + '</p></div>');
 // add button to bottom of page
 $("#content").append("<button id='dark-mode'>Dark Mode</button>");
 
-// add a click listener to the results button
+// add a click listener to the content button
 $("#dark-mode").click(function(){
     // now add (or subtract) the "special" class to the section
-    $("#whole-page").toggleClass("special");
+    $(".minor-section").toggleClass("special");
 });
-
