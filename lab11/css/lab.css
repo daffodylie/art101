@@ -4,3 +4,16 @@
   color: #e5e7ec;
 } 
 
+#output {
+  color: #3b7093;
+  font-family: monospace;
+  margin-left: 10px;
+}
+
+image {
+  height: 10px;
+}
+
+.talent-image {
+  height: 200px; 
+}
