@@ -33,5 +33,5 @@ $("#submit").click(function(){
   //get the type
   let talent = chooseTalent(name);
   //add type to output
-  $("#output").html("Your talent type is: " + talent + "<br><img class='talent-image' src='" + imageURL + "'>");
+  $("#output").html("Your talent type is: " + talent + "<br><img class='talent-image'  src='" + imageURL + "'>");
 });
